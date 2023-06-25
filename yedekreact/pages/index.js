@@ -29,10 +29,7 @@ export default function Home() {
   
 
 
-  const metamaskConfig = metamaskWallet();
-  const connectionStatus = useConnectionStatus();
-  const address = useAddress();
-  const [isLoading, setIsLoading] = useState(true);
+  
   
   const buttonStyle = {
     backgroundColor: '#ad0000',
